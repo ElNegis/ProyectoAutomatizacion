@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mau - Registro de personal" parallel="none" verbose="1">
+    <test name="Personal en Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="mau.pruebas.RegistroPersonalTest"/>
+        </classes>
+    </test>
+    <test name="Personal en Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="mau.pruebas.RegistroPersonalTest"/>
+        </classes>
+    </test>
+</suite>

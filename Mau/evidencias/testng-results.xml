@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Navegador: chrome 154.0.8037.57]]>
+    </line>
+    <line>
+      <![CDATA[Registro de personal: L27mh9i7z0: Lucia_27mh9i7z0 Isabel Vargas (luciamau_27mh9i7z0, Enabled)]]>
+    </line>
+    <line>
+      <![CDATA[Captura final: target\capturas\chrome-1790547288185.png]]>
+    </line>
+    <line>
+      <![CDATA[Navegador: chrome 154.0.8037.57]]>
+    </line>
+    <line>
+      <![CDATA[Registro de personal: Tru6mdeqtg: Mateo_ru6mdeqtg Daniel Rojas (mateomau_ru6mdeqtg, Disabled)]]>
+    </line>
+    <line>
+      <![CDATA[Captura final: target\capturas\chrome-1790547312719.png]]>
+    </line>
+    <line>
+      <![CDATA[Navegador: firefox 156.0.1]]>
+    </line>
+    <line>
+      <![CDATA[Registro de personal: L2ii3balvr: Lucia_2ii3balvr Isabel Vargas (luciamau_2ii3balvr, Enabled)]]>
+    </line>
+    <line>
+      <![CDATA[Captura final: target\capturas\firefox-1790547336724.png]]>
+    </line>
+    <line>
+      <![CDATA[Navegador: firefox 156.0.1]]>
+    </line>
+    <line>
+      <![CDATA[Registro de personal: T6h4grmtjk: Mateo_6h4grmtjk Daniel Rojas (mateomau_6h4grmtjk, Disabled)]]>
+    </line>
+    <line>
+      <![CDATA[Captura final: target\capturas\firefox-1790547359889.png]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-09-27T18:14:43 BOT" name="Mau - Registro de personal" finished-at="2026-09-27T18:16:16 BOT" duration-ms="93460">
+    <groups>
+    </groups>
+    <test started-at="2026-09-27T18:14:43 BOT" name="Personal en Chrome" finished-at="2026-09-27T18:15:30 BOT" duration-ms="46882">
+      <class name="mau.pruebas.RegistroPersonalTest">
+        <test-method is-config="true" signature="abrirNavegador(java.lang.String)[pri:0, instance:mau.pruebas.RegistroPersonalTest@4a883b15]" started-at="2026-09-27T18:14:43 BOT" name="abrirNavegador" finished-at="2026-09-27T18:14:48 BOT" duration-ms="4744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navegador: chrome 154.0.8037.57]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirNavegador -->
+        <test-method signature="empleadoRegistradoApareceEnLaBusqueda(mau.modelo.DatosEmpleado)[pri:0, instance:mau.pruebas.RegistroPersonalTest@4a883b15]" started-at="2026-09-27T18:14:48 BOT" name="empleadoRegistradoApareceEnLaBusqueda" description="Registrar personal con acceso y localizarlo por identificador" data-provider="personalNuevo" finished-at="2026-09-27T18:15:04 BOT" duration-ms="16342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L27mh9i7z0: Lucia_27mh9i7z0 Isabel Vargas (luciamau_27mh9i7z0, Enabled)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registro de personal: L27mh9i7z0: Lucia_27mh9i7z0 Isabel Vargas (luciamau_27mh9i7z0, Enabled)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- empleadoRegistradoApareceEnLaBusqueda -->
+        <test-method is-config="true" signature="cerrarNavegador(org.testng.ITestResult)[pri:0, instance:mau.pruebas.RegistroPersonalTest@4a883b15]" started-at="2026-09-27T18:15:04 BOT" name="cerrarNavegador" finished-at="2026-09-27T18:15:06 BOT" duration-ms="1838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=empleadoRegistradoApareceEnLaBusqueda status=SUCCESS method=RegistroPersonalTest.empleadoRegistradoApareceEnLaBusqueda(mau.modelo.DatosEmpleado)[pri:0, instance:mau.pruebas.RegistroPersonalTest@4a883b15] output=Registro de personal: L27mh9i7z0: Lucia_27mh9i7z0 Isabel Vargas (luciamau_27mh9i7z0, Enabled)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captura final: target\capturas\chrome-1790547288185.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cerrarNavegador -->
+        <test-method is-config="true" signature="abrirNavegador(java.lang.String)[pri:0, instance:mau.pruebas.RegistroPersonalTest@4a883b15]" started-at="2026-09-27T18:15:06 BOT" name="abrirNavegador" finished-at="2026-09-27T18:15:12 BOT" duration-ms="6351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navegador: chrome 154.0.8037.57]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirNavegador -->
+        <test-method signature="empleadoRegistradoApareceEnLaBusqueda(mau.modelo.DatosEmpleado)[pri:0, instance:mau.pruebas.RegistroPersonalTest@4a883b15]" started-at="2026-09-27T18:15:12 BOT" name="empleadoRegistradoApareceEnLaBusqueda" description="Registrar personal con acceso y localizarlo por identificador" data-provider="personalNuevo" finished-at="2026-09-27T18:15:28 BOT" duration-ms="15621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tru6mdeqtg: Mateo_ru6mdeqtg Daniel Rojas (mateomau_ru6mdeqtg, Disabled)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registro de personal: Tru6mdeqtg: Mateo_ru6mdeqtg Daniel Rojas (mateomau_ru6mdeqtg, Disabled)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- empleadoRegistradoApareceEnLaBusqueda -->
+        <test-method is-config="true" signature="cerrarNavegador(org.testng.ITestResult)[pri:0, instance:mau.pruebas.RegistroPersonalTest@4a883b15]" started-at="2026-09-27T18:15:28 BOT" name="cerrarNavegador" finished-at="2026-09-27T18:15:30 BOT" duration-ms="1872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=empleadoRegistradoApareceEnLaBusqueda status=SUCCESS method=RegistroPersonalTest.empleadoRegistradoApareceEnLaBusqueda(mau.modelo.DatosEmpleado)[pri:0, instance:mau.pruebas.RegistroPersonalTest@4a883b15] output=Registro de personal: Tru6mdeqtg: Mateo_ru6mdeqtg Daniel Rojas (mateomau_ru6mdeqtg, Disabled)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captura final: target\capturas\chrome-1790547312719.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cerrarNavegador -->
+      </class> <!-- mau.pruebas.RegistroPersonalTest -->
+    </test> <!-- Personal en Chrome -->
+    <test started-at="2026-09-27T18:15:30 BOT" name="Personal en Firefox" finished-at="2026-09-27T18:16:16 BOT" duration-ms="46550">
+      <class name="mau.pruebas.RegistroPersonalTest">
+        <test-method is-config="true" signature="abrirNavegador(java.lang.String)[pri:0, instance:mau.pruebas.RegistroPersonalTest@6caf0677]" started-at="2026-09-27T18:15:30 BOT" name="abrirNavegador" finished-at="2026-09-27T18:15:36 BOT" duration-ms="6481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navegador: firefox 156.0.1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirNavegador -->
+        <test-method signature="empleadoRegistradoApareceEnLaBusqueda(mau.modelo.DatosEmpleado)[pri:0, instance:mau.pruebas.RegistroPersonalTest@6caf0677]" started-at="2026-09-27T18:15:36 BOT" name="empleadoRegistradoApareceEnLaBusqueda" description="Registrar personal con acceso y localizarlo por identificador" data-provider="personalNuevo" finished-at="2026-09-27T18:15:53 BOT" duration-ms="16632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L2ii3balvr: Lucia_2ii3balvr Isabel Vargas (luciamau_2ii3balvr, Enabled)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registro de personal: L2ii3balvr: Lucia_2ii3balvr Isabel Vargas (luciamau_2ii3balvr, Enabled)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- empleadoRegistradoApareceEnLaBusqueda -->
+        <test-method is-config="true" signature="cerrarNavegador(org.testng.ITestResult)[pri:0, instance:mau.pruebas.RegistroPersonalTest@6caf0677]" started-at="2026-09-27T18:15:53 BOT" name="cerrarNavegador" finished-at="2026-09-27T18:15:53 BOT" duration-ms="610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=empleadoRegistradoApareceEnLaBusqueda status=SUCCESS method=RegistroPersonalTest.empleadoRegistradoApareceEnLaBusqueda(mau.modelo.DatosEmpleado)[pri:0, instance:mau.pruebas.RegistroPersonalTest@6caf0677] output=Registro de personal: L2ii3balvr: Lucia_2ii3balvr Isabel Vargas (luciamau_2ii3balvr, Enabled)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captura final: target\capturas\firefox-1790547336724.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cerrarNavegador -->
+        <test-method is-config="true" signature="abrirNavegador(java.lang.String)[pri:0, instance:mau.pruebas.RegistroPersonalTest@6caf0677]" started-at="2026-09-27T18:15:53 BOT" name="abrirNavegador" finished-at="2026-09-27T18:15:59 BOT" duration-ms="5922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navegador: firefox 156.0.1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirNavegador -->
+        <test-method signature="empleadoRegistradoApareceEnLaBusqueda(mau.modelo.DatosEmpleado)[pri:0, instance:mau.pruebas.RegistroPersonalTest@6caf0677]" started-at="2026-09-27T18:15:59 BOT" name="empleadoRegistradoApareceEnLaBusqueda" description="Registrar personal con acceso y localizarlo por identificador" data-provider="personalNuevo" finished-at="2026-09-27T18:16:16 BOT" duration-ms="16303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[T6h4grmtjk: Mateo_6h4grmtjk Daniel Rojas (mateomau_6h4grmtjk, Disabled)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Registro de personal: T6h4grmtjk: Mateo_6h4grmtjk Daniel Rojas (mateomau_6h4grmtjk, Disabled)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- empleadoRegistradoApareceEnLaBusqueda -->
+        <test-method is-config="true" signature="cerrarNavegador(org.testng.ITestResult)[pri:0, instance:mau.pruebas.RegistroPersonalTest@6caf0677]" started-at="2026-09-27T18:16:16 BOT" name="cerrarNavegador" finished-at="2026-09-27T18:16:16 BOT" duration-ms="598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=empleadoRegistradoApareceEnLaBusqueda status=SUCCESS method=RegistroPersonalTest.empleadoRegistradoApareceEnLaBusqueda(mau.modelo.DatosEmpleado)[pri:0, instance:mau.pruebas.RegistroPersonalTest@6caf0677] output=Registro de personal: T6h4grmtjk: Mateo_6h4grmtjk Daniel Rojas (mateomau_6h4grmtjk, Disabled)]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Captura final: target\capturas\firefox-1790547359889.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cerrarNavegador -->
+      </class> <!-- mau.pruebas.RegistroPersonalTest -->
+    </test> <!-- Personal en Firefox -->
+  </suite> <!-- Mau - Registro de personal -->
+</testng-results>

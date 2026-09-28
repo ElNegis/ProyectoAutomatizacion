@@ -1,0 +1,61 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------< mau:Mau >-------------------------------
+[INFO] Building Mau - Registro de personal 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Mau ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Mau ---
+[INFO] skip non existing resourceDirectory C:\Users\Pedro PC\Documents\Diplomado\Automatizacion\Mau\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ Mau ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 8 source files with javac [debug release 11] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Mau ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ Mau ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 3 source files with javac [debug release 11] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ Mau ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+sep. 27, 2026 6:14:44 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 154, returning the closest version; found: 152; Please update to a Selenium version that supports CDP version 154
+Navegador: chrome 154.0.8037.57
+Registro de personal: L27mh9i7z0: Lucia_27mh9i7z0 Isabel Vargas (luciamau_27mh9i7z0, Enabled)
+Captura final: target\capturas\chrome-1790547288185.png
+sep. 27, 2026 6:15:06 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 154, returning the closest version; found: 152; Please update to a Selenium version that supports CDP version 154
+Navegador: chrome 154.0.8037.57
+Registro de personal: Tru6mdeqtg: Mateo_ru6mdeqtg Daniel Rojas (mateomau_ru6mdeqtg, Disabled)
+Captura final: target\capturas\chrome-1790547312719.png
+Navegador: firefox 156.0.1
+Registro de personal: L2ii3balvr: Lucia_2ii3balvr Isabel Vargas (luciamau_2ii3balvr, Enabled)
+Captura final: target\capturas\firefox-1790547336724.png
+Navegador: firefox 156.0.1
+Registro de personal: T6h4grmtjk: Mateo_6h4grmtjk Daniel Rojas (mateomau_6h4grmtjk, Disabled)
+Captura final: target\capturas\firefox-1790547359889.png
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 94.02 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:37 min
+[INFO] Finished at: 2026-09-27T18:16:17-04:00
+[INFO] ------------------------------------------------------------------------
