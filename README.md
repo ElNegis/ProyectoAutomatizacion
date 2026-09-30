@@ -1,6 +1,7 @@
 # Mau · Registro de personal en OrangeHRM
 
 **Autor:** Mauricio Gutierrez Pacheco 
+           
            Mariana Laura Hilari Hilari
 **Curso:** Automatizacion  
 **Docente:** Lopez Fuentes, Juan David  
