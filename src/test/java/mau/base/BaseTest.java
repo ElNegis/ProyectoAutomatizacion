@@ -28,18 +28,21 @@ public abstract class BaseTest {
     @Parameters("browser")
     public void abrirNavegador(@Optional("chrome") String browser) {
         browserName = browser.toLowerCase();
+        boolean headless = Boolean.getBoolean("headless");
         switch (browser.toLowerCase()) {
             case "chrome":
                 ChromeOptions chrome = new ChromeOptions();
                 chrome.setExperimentalOption("prefs", Map.of(
                         "credentials_enable_service", false,
                         "profile.password_manager_enabled", false));
-                if (Boolean.getBoolean("headless")) chrome.addArguments("--headless=new");
+                // Sin pantalla real, maximize() no fuerza un viewport de escritorio
+                // y la app cae al layout movil (rompe linkText("Add Employee")).
+                if (headless) chrome.addArguments("--headless=new", "--window-size=1920,1080");
                 driver = new ChromeDriver(chrome);
                 break;
             case "firefox":
                 FirefoxOptions firefox = new FirefoxOptions();
-                if (Boolean.getBoolean("headless")) firefox.addArguments("-headless");
+                if (headless) firefox.addArguments("-headless", "-width", "1920", "-height", "1080");
                 driver = new FirefoxDriver(firefox);
                 break;
             default:
@@ -48,7 +51,7 @@ public abstract class BaseTest {
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
         Reporter.log("Navegador: " + browserName + " "
                 + ((RemoteWebDriver) driver).getCapabilities().getBrowserVersion(), true);
-        driver.manage().window().maximize();
+        if (!headless) driver.manage().window().maximize();
         driver.get("https://opensource-demo.orangehrmlive.com/");
     }
 

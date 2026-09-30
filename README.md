@@ -122,6 +122,21 @@ También puede combinarse con un navegador concreto:
 mvn test -Dtest=mau.pruebas.RegistroPersonalTest -Dbrowser=chrome -Dheadless=true
 ```
 
+En este modo, `BaseTest` fuerza un viewport de 1920x1080. Sin eso, un entorno sin
+pantalla real puede reportar un tamaño de ventana pequeño y OrangeHRM responde con
+su layout móvil, donde "Add Employee" pasa a mostrarse como "+ Add" y rompe el
+`linkText` esperado por `ListadoEmpleadosPage`.
+
+---
+
+## Integración continua
+
+`.github/workflows/tests.yml` corre `mvn clean test -Dheadless=true` en cada push
+y pull request a `main`, usando los navegadores ya incluidos en `ubuntu-latest`.
+Los reportes de TestNG y las capturas quedan como artefacto descargable del run,
+para que cualquier persona del equipo pueda revisar una corrida sin ejecutarla
+localmente.
+
 ---
 
 ## Flujo automatizado
