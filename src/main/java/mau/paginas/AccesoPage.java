@@ -16,7 +16,7 @@ public class AccesoPage extends BasePage {
         esperarVisible(username);
     }
 
-    // Acciones: las credenciales se leen del aviso publico de la demo.
+    // Acciones: las credenciales se leen del aviso publico de la pagina sin comprometer el test.
     public InicioPage ingresarComoAdministrador() {
         String user = getText(demoUsername).split(":", 2)[1].trim();
         String pass = getText(demoPassword).split(":", 2)[1].trim();

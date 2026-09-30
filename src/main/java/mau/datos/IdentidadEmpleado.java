@@ -10,7 +10,7 @@ public final class IdentidadEmpleado {
     private IdentidadEmpleado() { }
 
     public static DatosEmpleado preparar(DatosEmpleado base) {
-        // Un solo sufijo por fila del DataProvider, compartido por los tres campos.
+        // Un solo sufijo por fila del DataProvider, compartido por los tres campos, consistencia de los datos creados.
         StringBuilder suffix = new StringBuilder();
         for (int i = 0; i < 9; i++) {
             suffix.append(ALPHABET.charAt(RANDOM.nextInt(ALPHABET.length())));
